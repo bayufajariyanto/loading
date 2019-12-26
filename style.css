@@ -1,0 +1,23 @@
+#loading{
+	width: 40px;
+	height: 40px;
+	border: 8px solid #D6D8DB;
+	border-top-color: #007BFF;
+	border-radius: 100%;
+	/* Center */
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	/* Panggil animasi putar */
+	animation: putar 1s linear infinite;
+}
+
+@keyframes putar{
+	from{transform: rotate(0deg)}
+	to{transform: rotate(360deg)}
+}
+
+/* add JavaScript ketika halaman di load komplit */
